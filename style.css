@@ -46,3 +46,214 @@ h2 {
 #contact {
     background-color: #f4f4f4;
 }
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background-color:#f4f4f4;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.hero button{
+    padding:10px 20px;
+    background:#333;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:#555;
+}
+/* HERO SECTION */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+    color:white;
+}
+
+.hero-container{
+    width:85%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+/* LEFT SIDE TEXT */
+
+/* HERO TEXT */
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.hero-text h2{
+    font-size:30px;
+    margin-bottom:20px;
+    color:#cfcfff;
+}
+
+.hero-text p{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.hero-text h2{
+    font-size:28px;
+    margin-bottom:20px;
+    color:#cfcfff;
+}
+
+.hero-text p{
+    max-width:400px;
+    margin-bottom:20px;
+}
+
+/* BUTTON */
+
+.hero-text button{
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:black;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* IMAGE */
+
+.hero-image img{
+    width:320px;
+    border-radius:50%;
+    border:6px solid white;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    color:white;
+}
+
+.navbar nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+/* PROFILE IMAGE GLOW */
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.image-circle{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    background:linear-gradient(45deg,#ff00ff,#00ffff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.image-circle img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+}
+/* SOCIAL ICONS */
+
+.social-icons{
+    margin:20px 0;
+}
+
+.social-icons a{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    border-radius:50%;
+    border:2px solid white;
+    color:white;
+    margin-right:10px;
+    text-decoration:none;
+}
+
+.social-icons a:hover{
+    background:white;
+    color:black;
+}
+
+/* CV BUTTON */
+
+.cv-btn{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+}
+/* HERO TEXT IMPROVEMENT */
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:65px;
+    margin-bottom:10px;
+}
+
+.hero-text h2{
+    font-size:32px;
+    margin-bottom:20px;
+    color:#cfcfff;
+}
+
+.hero-text p{
+    font-size:17px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+/* HERO LAYOUT SPACING */
+
+.hero-container{
+    width:85%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+}
